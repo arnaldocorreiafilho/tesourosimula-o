@@ -4,7 +4,7 @@ import tesouro
 
 app = Flask("Tesouro")
 
-@app.route("/email")
+@app.route("/")
 def hello_world():
     return json.dumps( { "email": "bill@microsoft.com",
   "url": "http://www.microsoft.com",
