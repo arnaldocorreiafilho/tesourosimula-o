@@ -12,7 +12,6 @@ def hello_world():
   "bio": "I am awesome"
 })
 
-
 @app.route('/colors', methods = ['GET'])
 def get_colors():
     return tesouro.get_data()
