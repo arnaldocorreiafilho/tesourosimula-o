@@ -2,7 +2,7 @@ from flask import Flask, jsonify, request
 import json
 import tesouro
 
-app = Flask(__name__)
+app = Flask("Tesouro")
 
 @app.route("/email")
 def hello_world():
