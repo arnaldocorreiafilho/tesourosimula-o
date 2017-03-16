@@ -17,6 +17,7 @@ def hello_world():
 def get_colors():
     return tesouro.get_data()
 
-app.run()
+if __name__=='__main__':
+    app.run(host='0.0.0.0')
 
 
